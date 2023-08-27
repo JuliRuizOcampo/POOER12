@@ -12,7 +12,7 @@ public class POOER12 {
         double vhn, salario; 
         
         /* 
-        nht: Número de horas trabajadas, het: Horas extras trabajadas, hee8: Horas extras que exceden de 8
+        nht: Numero de horas trabajadas, het: Horas extras trabajadas, hee8: Horas extras que exceden de 8
         vhn: Valor hora normal trabajada, salario: Pago total que recibe el trabajador
         */
         
@@ -21,7 +21,7 @@ public class POOER12 {
         
         System.out.println("Ingrese el nombre del trabajador: ");
         nom = lector.nextLine();
-        System.out.println("Ingrese el número de horas trabajadas: ");
+        System.out.println("Ingrese el numero de horas trabajadas: ");
         nht = lector2.nextInt();
         System.out.println("Ingrese el valor de una hora normal trabajada: ");
         vhn = lector2.nextDouble();
@@ -41,6 +41,6 @@ public class POOER12 {
             salario = nht * vhn;
         }
         
-        System.out.println("El trabajador " +  nom + " devengó: $" + salario);  
+        System.out.println("El trabajador " +  nom + " devengo: $" + salario);  
     }
 }
